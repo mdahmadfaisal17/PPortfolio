@@ -1,16 +1,20 @@
  body {
   margin: 0 0 0 0;
  }
- .header {
+.header {
   width: 100%;
-  height: 50px;
-  background-color: #0a0025;
+  height: 65px;
+  background-color: #310381;
   color: white;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
- }
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
  
  .headerlogo {
   width: 200px;
@@ -26,8 +30,6 @@
   justify-content: center;
   align-items: center;
 }
-
- }
  ul {
   list-style-type: none;
   margin: 0;
@@ -39,4 +41,98 @@
   padding: 10px;
   font-family: poppins, sans-serif;
   font-weight: 500;
+ }
+
+ .slider {
+  width: 100%;
+  height: 800px;
+  background-color: #8f1c1c;
+  margin: 0;
+  background: url('images/Slider.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: relative;
+ }
+ 
+ .leftside {
+    width: 55%;
+    margin-left: 60px;
+    height:  100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .slidebottomtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 30px;
+
+  }
+
+
+  .slideline1, .slideline2 {
+    width: 100%;
+  line-height: 1;
+  display: block;
+  font-family: poppins, sans-serif;
+  text-align: center;
+ }
+
+ .slideline1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffb910;
+  
+ }
+  .slideline2 {
+  color: #310381;
+  font-size: 130px;
+  font-weight: 1000;
+  }
+  .sliderpara {
+    font-family: poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    color: #363636;
+    text-align: center;
+  }
+
+
+ .rightside {width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: left;
+  position: relative;
+}
+
+ .faysalimage {
+  width: 80%;
+  margin: 0;
+  display: flex;
+  position: relative;
+ }
+
+
+ .hiremebutton {
+  width: 200px;
+  height: 50px;
+  background-color: #ffb910;
+  color: #ffffff;
+  font-family: poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  position: relative;
  }
