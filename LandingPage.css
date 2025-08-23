@@ -48,7 +48,7 @@
   height: 800px;
   background-color: #8f1c1c;
   margin: 0;
-  background: url('images/Slider.jpg') no-repeat center center;
+  background: url('Images/Slider.jpg') no-repeat center center;
   background-size: cover;
   display: flex;
   align-items: flex-end;
